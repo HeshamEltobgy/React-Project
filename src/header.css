@@ -1,0 +1,93 @@
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+header {
+  background-color: #333;
+  height: 170px;
+  padding: 18px 50px 0;
+  
+
+}
+
+header .Top-header {
+  text-align: center;
+  
+}
+
+header .Middle-header {
+  padding: 0 10em; 
+}
+
+header .Middle-header a.our-business {
+      
+  font-size: 1.2em;
+  float: left;
+  margin-top: -3em;
+  cursor: pointer;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:hover {
+  
+  color: #fff;
+}
+
+header .Middle-header a.contact-us {
+  
+  font-size: 1.2em;
+  float: right;
+  margin-top: -3em;
+  cursor: pointer;
+  text-decoration: underline;
+  
+  letter-spacing: 1px;
+  animation-name: middleHeader;
+   animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;  
+
+}
+  @keyframes middleHeader {
+  
+
+   
+  }
+header .Low-header {
+  
+  margin-top: -1.5em;
+}
+header .Low-header h3 {
+  
+  text-align: center;
+  letter-spacing: 2.5px;
+  
+}
+
+
+header .Low-header h3 {
+  
+  color:#d1fad2;
+  animation-name: lowHeader;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-timing-function: ease-out;
+  }
+  @keyframes lowHeader {
+  
+  0%   {color:#d1fad2;}
+  50%  {opacity: 0.1;}
+  100%   {color:#d1fad2;}
+   
+  }
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

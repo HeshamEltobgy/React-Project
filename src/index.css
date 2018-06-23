@@ -1,5 +1,12 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab);
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
+  color: #d1fad2;
+}
+
+p {
+	font-size: 12px;
 }
