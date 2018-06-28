@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 
 import Header from './header';
 
+import Menu from './menu';
+
 
 class App extends Component {
   render() {
     return (
-     <Header />
-
+      <div>
+       <Header />
+       <Menu  />
+      </div>
     );
   }
 }

@@ -10,7 +10,108 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/icon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
 
+    @media only screen and  (max-width: 767px) {
+   
+.nav div:not(:first-child){
+     display: none;
+     }
+
+
+
+.nav.responsive {
+  position: relative;
+  display: block;
+}
+
+.nav.responsive div:not(:first-child) {
+   float: none;
+display: block;
+text-align: left;
+
+  
+}
+
+.menu1.openlink1, .menu2.openlink2, .menu3.openlink3, .menu4.openlink4,.menu5.openlink5, .menu6.openlink6, .menu7.openlink7 {
+ z-index: 1;
+}
+ .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  span:hover ul {
+    display: block;
+  }
+
+.material-icons:first {
+  display: block!important;
+}
+
+li a .fa-home {
+      margin-top: 0px!important;
+    font-size: 35px!important;
+}
+div span.link i {
+
+    right: 18px!important;
+} 
+div span.link  {
+
+    borde;
+} 
+
+}
+
+@media screen and (min-width: 768px) {
+.dropdown:hover .dropdown-content {
+      display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+   header .Middle-header a.contact-us , header .Middle-header a.our-business {
+     display: none;
+ }
+   a.btn{
+ 
+    right: 20px;
+    top: 7px;
+  }
+  .btn .material-icons {
+    font-size: 37px;
+    color: green;
+    left: -3px;
+    top: -1px;
+  }
+  div.home {
+    border: none;
+    top: -2px;
+    left: -20px;
+    font-size: 35px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) {
+  a.btn{
+    display: none;
+
+  }
+.link7  {
+ right: -28em;
+}
+.link6  {
+ right: -28em;
+}
+}
+
+
+
+</style>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -37,5 +138,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+
+
   </body>
 </html>

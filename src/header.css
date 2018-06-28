@@ -26,6 +26,7 @@ header .Middle-header a.our-business {
       
   font-size: 1.2em;
   float: left;
+  margin-left: -6em;
   margin-top: -3em;
   cursor: pointer;
   text-decoration: underline;
@@ -42,6 +43,7 @@ header .Middle-header a.contact-us {
   font-size: 1.2em;
   float: right;
   margin-top: -3em;
+  margin-right: -6em;
   cursor: pointer;
   text-decoration: underline;
   
@@ -65,7 +67,7 @@ header .Low-header {
 header .Low-header h3 {
   
   text-align: center;
-  letter-spacing: 2.5px;
+  letter-spacing: 1px;
   
 }
 
