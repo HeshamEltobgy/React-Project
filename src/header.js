@@ -11,11 +11,11 @@ class Header extends Component {
         <header>
         <div className="Top-header">
            
-          <img src={logo1} width="" height="120px"  className="Logo" alt="logo" />
+          <img src={logo1} width="" height=""  className="Logo" alt="logo" />
             
         </div>
         <div className="Middle-header">
-             <a className="our-business" >Our Services</a>
+             <a className="our-business" >Mission</a>
               <a className="contact-us">Support</a>
         </div>
         <div  className="Low-header">

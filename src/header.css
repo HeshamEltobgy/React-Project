@@ -35,7 +35,7 @@ header .Middle-header a.our-business {
 
 header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:hover {
   
-  color: #fff;
+  color: #d1fad2;
 }
 
 header .Middle-header a.contact-us {
@@ -62,7 +62,7 @@ header .Middle-header a.contact-us {
   }
 header .Low-header {
   
-  margin-top: -1.5em;
+  margin-top: -1.1em;
 }
 header .Low-header h3 {
   
@@ -83,9 +83,9 @@ header .Low-header h3 {
   }
   @keyframes lowHeader {
   
-  0%   {color:#d1fad2;}
+  0%   {color:#fff;}
   50%  {opacity: 0.1;}
-  100%   {color:#d1fad2;}
+  100%   {color:#fff;}
    
   }
 

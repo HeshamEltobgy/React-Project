@@ -15,13 +15,17 @@
   width: auto;
 }
 
- .link1, .link2, .link3, .link4, .link5, .link6, .link7 {
-  width: 100px;
+ .link1, .link2, .link3, .link4, .link5  {
+  width: auto;
  
   padding: 10px;
   text-align: center;
   position: relative;
   cursor: pointer;
+}
+.link4 a, .link5 a, .link6 a, .link7 a {
+  color: #fff;
+  text-decoration: none;
 }
 .home {
   font-size: 30px;
@@ -31,32 +35,17 @@
   cursor: pointer;
 }
 .home a {
-    color: #d1fad2;
+    color: #fff;
 
 }
 .link:hover, .home a:hover {
-  color: #fff;
-}
-.menu1, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7  {
-  opacity: 0;
-  position: absolute;
-  top: 41px; // same as your nav height
-  left: 6.5px;
-  background: #333;
-  border: 1px solid gray;
-  padding: 10px 30px 10px;
-  text-align: center;
-  transition: all 600ms ease;
-}
-
-.menu1.openlink1, .menu2.openlink2, .menu3.openlink3, .menu4.openlink4, .menu5.openlink5, .menu6.openlink6, .menu7.openlink7 {
-  opacity: 1;
-  border: 1px solid gray;
- 
-
-}
-.menu1 ul li a, .menu1 ul li a, .menu2 ul li a, .menu3 ul li a, .menu4 ul li a, .menu5 ul li a, .menu6 ul li a , .menu7 ul li a  {
   color: #d1fad2;
+}
+
+
+
+.menu1 ul li a, .menu1 ul li a, .menu2 ul li a, .menu3 ul li a {
+  color: #fff;
   text-decoration: none;
 }
 i.material-icons {
@@ -92,13 +81,8 @@ ul {
   padding: 0;
   list-style: none;
 }
-div span.link i {
-  top: 8px;
-    right: 2px;
-} 
-div ul li:not(:first-child) {
-  margin-top: 8px;
-}
+
+
 
 .btn{
     display: inline-block;
@@ -113,7 +97,7 @@ div ul li:not(:first-child) {
     overflow: hidden;
     font-weight: bold;
     background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
-    background-image: linear-gradient(#e8e8e8 0%, #d1fad2 100%);
+    background-image: linear-gradient(#e8e8e8 0%, #fff 100%);
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
     box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
     border-bottom: solid 2px #b5b5b5;
