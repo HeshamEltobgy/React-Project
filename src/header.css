@@ -6,7 +6,8 @@
 }
 
 header {
-  background-color: #333;
+  background-color: #000;
+  opacity: 0.8;
   height: 170px;
   padding: 18px 50px 0;
   
@@ -20,6 +21,7 @@ header .Top-header {
 
 header .Middle-header {
   padding: 0 10em; 
+
 }
 
 header .Middle-header a.our-business {
@@ -29,15 +31,26 @@ header .Middle-header a.our-business {
   margin-left: -6em;
   margin-top: -3em;
   cursor: pointer;
-  text-decoration: underline;
+
   letter-spacing: 1px;
 }
 
-header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:hover {
-  
-  color: #d1fad2;
-}
 
+header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:hover{
+    color: #baf7bb;
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.7) 30%, #000 50%, rgba(0,0,0,0.7) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
 header .Middle-header a.contact-us {
   
   font-size: 1.2em;
@@ -45,7 +58,7 @@ header .Middle-header a.contact-us {
   margin-top: -3em;
   margin-right: -6em;
   cursor: pointer;
-  text-decoration: underline;
+
   
   letter-spacing: 1px;
   animation-name: middleHeader;
@@ -64,17 +77,17 @@ header .Low-header {
   
   margin-top: -1.1em;
 }
-header .Low-header h3 {
+header .Low-header p {
   
   text-align: center;
-  letter-spacing: 1px;
+
   
 }
 
 
-header .Low-header h3 {
+header .Low-header p {
   
-  color:#d1fad2;
+  color:#fff;
   animation-name: lowHeader;
   animation-duration: 5s;
   animation-iteration-count: infinite;

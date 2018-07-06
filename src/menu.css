@@ -9,12 +9,26 @@
   display: flex;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
-  background: #333;
+  background: #000;
+  opacity: 0.8;
   padding: 0 10px;
   position: relative;
   width: auto;
+  z-index: 1;
 }
 
+
+.home {
+  font-size: 30px;
+    width: 100px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.home a {
+    color: #fff;
+
+}
  .link1, .link2, .link3, .link4, .link5  {
   width: auto;
  
@@ -27,17 +41,6 @@
   color: #fff;
   text-decoration: none;
 }
-.home {
-  font-size: 30px;
-    width: 100px;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-}
-.home a {
-    color: #fff;
-
-}
 .link:hover, .home a:hover {
   color: #d1fad2;
 }
@@ -48,6 +51,9 @@
   color: #fff;
   text-decoration: none;
 }
+.menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
+color: #d1fad2;
+} 
 i.material-icons {
 
   position: absolute;
@@ -65,7 +71,7 @@ a.btn:active {
 
 
 .material-icons.rotate {
-  transform: rotateZ(-180deg);
+  transform: rotateZ(+180deg);
   transition: all 500ms ease;
 }
 

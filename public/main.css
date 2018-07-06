@@ -2,107 +2,23 @@
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Libre+Baskerville|Roboto+Slab);
 
+
  
- @media only screen and  (max-width: 374px) {
-
- .Top-header img {
-  height: 70px!important;
- } 
+ @media only screen and (max-width: 767px) {
  header {
-    background-color: #333;
-    height: 128px!important;
-    padding: 18px 30px 0!important;
+  background-color: #333;
+  height: 155px!important;
+  padding: 18px 50px 0;
 }
- header .Low-header {
-    margin-top: 1.7em!important;
-
-}
-header .Low-header h3 {
-  font-size: 0.8em!important;
-  letter-spacing: 0.6px!important;
-}
-header .Middle-header a.our-business {
-      
-  font-size: 0.8em!important;
-  float: left;
-  margin-left: -9em!important;
-  margin-top: -1em!important;
-  cursor: pointer;
-  text-decoration: underline;
-  letter-spacing: 1px;
-}
-header .Middle-header a.contact-us {
-  
-  font-size: 0.8em!important;
-  float: right;
-  margin-top: -1em!important;
-  margin-right: -9em!important;
-  cursor: pointer;
-  text-decoration: underline;
-  
-  letter-spacing: 1px;
-  animation-name: middleHeader;
-   animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-timing-function: ease-out;  
-
-}
- a.btn{
- 
-    right: 18px;
-    top: 7px;
-  }
-  .btn{
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(152, 152, 152, 0.43);/*IconColor*/
-    width: 30px!important;
-    height: 30px!important;
-   position: absolute;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    overflow: hidden;
-    font-weight: bold;
-    background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
-    background-image: linear-gradient(#e8e8e8 0%, #d1fad2 100%);
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
-    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
-    border-bottom: solid 2px #b5b5b5;
-}
-   .btn .material-icons {
-    font-size: 35px!important;
-    color: green;
-    left: -2.3px!important;
-    top: -0.7px!important;
-  }
-  li a .fa-home {
-      margin-top: 0px!important;
-    font-size: 32px!important;
-}
-div span.link i  {
-  font-size: 25px!important;
-
-}
-
- }
-  @media only screen and (min-width: 375px) and (max-width: 767px) {
- header {
-    background-color: #333;
-    height: 155px!important;
-    padding: 18px 50px 0;
-}
- .Top-header img {
+.Top-header img {
   height: 90px;
- }  
+}  
  header .Low-header {
-    margin-top: 1.9em!important;
-
+  margin-top: 1.6em!important;
 }
-header .Low-header h3 {
-  font-size: 0.9em!important;
-  letter-spacing: 0.8px!important;
+header .Low-header p {
+  font-size: 1.1em!important;
+
 }
 header .Middle-header a.our-business {
       
@@ -131,11 +47,55 @@ header .Middle-header a.contact-us {
   animation-timing-function: ease-out;  
 
 }
+ img.image {
+    width: 100%;
+    max-width: 275px;
+    height: 200px;
+ }
+  div#wrapper {
+  position: relative;
+ }
+  a#letter {
+ color: #119B15;
+  margin: 0;
+    text-decoration: none;
+    font-size: 1.15em;
+   position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+  a#letter:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
 
+  height: 1em;
+  width: 100%;
+  border-bottom: 3px solid #119B15;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+   a#letter:hover:after {
+    opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  
+}
   }
 
    @media only screen and  (max-width: 767px) {
  
+ header .Middle-header {
+  padding: 0 6em!important; 
+}
 
 .nav div:not(:first-child){
      display: none;
@@ -213,7 +173,7 @@ li a .fa-home {
    margin-bottom:  0.5em;
 }
 .menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
-color: #d1fad2
+color: #d1fad2;
 }
 span.link, .link4, .link5, .link6, .link7  {
   font-size: 15px;
@@ -222,12 +182,51 @@ span.link, .link4, .link5, .link6, .link7  {
   font-size: 14px;
   
 }
+  a.btn{
+ 
+    right: 20px;
+    top: 7px;
+  }
+  .btn .material-icons {
+    font-size: 37px;
+    color: green;
+    left: -3px;
+    top: -1px;
+  }
+  div.home {
+    border: none;
+    top: -2px;
+    left: -20px;
+    font-size: 35px;
+  }
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(152, 152, 152, 0.43);/*IconColor*/
+    width: 30px;
+    height: 30px;
+   position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+    background-image: linear-gradient(#e8e8e8 0%, #d1fad2 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: solid 2px #b5b5b5;
+}
+#icon1, #icon2, #icon3 {
+    right: 0;
+}
 
 div span.link i {
     top: 10px;
  
     
 } 
+
 
 }
 
@@ -237,9 +236,7 @@ div span.link i {
 
 
 
- header .Middle-header {
-  padding: 0 6em!important; 
-}
+
 
 
 
@@ -281,6 +278,11 @@ div span.link i {
 #icon1, #icon2, #icon3 {
     right: 0;
 }
+ img.image {
+    width: 100%;
+    max-width: 767px;
+    height: auto;
+ }
 
 }
 
@@ -298,6 +300,10 @@ div span.link i {
    .Top-header img {
   height: 120px;
  }  
+ header .Low-header p {
+  font-size: 1.12em!important;
+ 
+}
   .home, .link1 {
         margin-left: -1em;
   }
@@ -377,7 +383,7 @@ div span.link i {
   padding: 8px;
 } 
 .menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
-color: #d1fad2
+color: #d1fad2;
 }
 div span.link i {
     top: 8px;
@@ -393,25 +399,70 @@ i#icon3 {
   left: 2.2em;
 }
 
+ img.image {
+    width: 100%;
+    max-width: 3000px;
+    height: auto;
+ }
+ div#wrapper {
+  position: relative;
+ }
+ a#letter {
+ color: #119B15;
+  margin: 0;
+    text-decoration: none;
+    font-size: 2em;
+   position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+  a#letter:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+
+  height: 1em;
+  width: 100%;
+  border-bottom: 3px solid #119B15;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
 }
 
-@media screen and (min-width: 768px) and  (max-width: 870px) {
+   a#letter:hover:after {
+    opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 870px) {
  .Top-header img {
   height: 110px;
  }  
  header .Low-header {
-    margin-top: 1em!important;
+    margin-top: -0.6em!important;
 
 }
+ header .Low-header p {
+  font-size: 1.16em!important;
+ 
+}
 
+.home {
+      margin-right: -1em;
+}
  .link1, .link2, .link3, .link4, .link5, .link6, .link7  {
   font-size: 15px;
   margin-left: 1.1em;
 }
-.home {
-      margin-right: -1em;
-}
-
 
 .link7  {
 
@@ -462,7 +513,7 @@ i#icon3 {
   padding: 8px;
 } 
 .menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
-color: #d1fad2
+color: #d1fad2;
 }
 div span.link i {
     top: 8px;
@@ -483,6 +534,48 @@ i#icon3 {
 
 a#icons {
   display: none;
+}
+ img.image {
+    width: 100%;
+    max-width: 870px;
+    height: auto;
+ }
+  div#wrapper {
+  position: relative;
+ }
+  a#letter {
+ color: #119B15;
+  margin: 0;
+    text-decoration: none;
+    font-size: 1.7em;
+   position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+  a#letter:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+
+  height: 1em;
+  width: 100%;
+  border-bottom: 3px solid #119B15;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+   a#letter:hover:after {
+    opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  
 }
 
 }

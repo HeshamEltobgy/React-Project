@@ -11,7 +11,7 @@ class Header extends Component {
         <header>
         <div className="Top-header">
            
-          <img src={logo1} width="" height=""  className="Logo" alt="logo" />
+          <img src={logo1}  className="Logo" alt="logo" />
             
         </div>
         <div className="Middle-header">
@@ -19,7 +19,7 @@ class Header extends Component {
               <a className="contact-us">Support</a>
         </div>
         <div  className="Low-header">
-        <h3>Powerfull Technology Solutions</h3>
+        <p>Powerfull Web Solutions</p>
         </div> 
         </header>
     );

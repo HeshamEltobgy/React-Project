@@ -4,6 +4,8 @@ import Header from './header';
 
 import Menu from './menu';
 
+import Image from './image';
+
 
 class App extends Component {
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
       <div>
        <Header />
        <Menu  />
+       <Image />
       </div>
     );
   }
