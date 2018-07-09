@@ -118,15 +118,10 @@ class Menu extends React.Component {
         </div>
       </div>
           <div className="link3">
-        <span className="link" onClick={this.handleClick3}>Projects
-         <i id="icon3" className="material-icons" onClick={changeIcon3}  style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
-        <div className={`menu3 ${openlink3 ? 'openlink3' : ''}`}>
-          <ul>
-            <li><a href="#">Test 1</a></li>
-            <li><a href="#">Test 2</a></li>
-            <li><a href="#">Test 3</a></li>
-          </ul>
-        </div>
+        <span className="link">Projects
+        </span>
+       
+     
       </div>
           <div className="link4">
         <a href="" className="link">Opportunities</a>
@@ -148,7 +143,7 @@ class Menu extends React.Component {
        
       </div>
      <a href="#" id="icons" className="btn" onClick={vip} >
-<i  id="icon-down" className="material-icons"   style= {{}}>arrow_drop_down</i>
+<i  id="icon-down" className="material-icons">arrow_drop_down</i>
 
 </a>
 

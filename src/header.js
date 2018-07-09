@@ -15,8 +15,8 @@ class Header extends Component {
             
         </div>
         <div className="Middle-header">
-             <a className="our-business" >Mission</a>
-              <a className="contact-us">Support</a>
+             <a className = "our-business">Business</a>
+              <a className = "contact-us">Mission</a>
         </div>
         <div  className="Low-header">
         <p>Powerfull Web Solutions</p>
