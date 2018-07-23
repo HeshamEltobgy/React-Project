@@ -15,7 +15,7 @@
   margin-top: 1em;
 }
 header .Low-header p {
-  font-size: 1.07em!important;
+  font-size: 1em!important;
 
 }
 .Mid-header1, .Mid-header2 {
@@ -23,7 +23,7 @@ header .Low-header p {
 }
 div#content {
     position: relative;
-    margin-top: -1.1em;
+    margin-top: -1.2em;
 }
 div#content-part-one, div#content-part-two {
   width: 90%;
@@ -31,7 +31,7 @@ div#content-part-one, div#content-part-two {
 
 }
 div#content-part-one h3 {
-    padding-top: 0.6em;
+    padding-top: 1em;
 }
 
  img.image {
@@ -285,6 +285,11 @@ div#wrapper {
     max-width: 767px;
     height: auto;
  }
+  div.h_line {     
+
+    margin-top: 0px;
+    
+     }
  div.row_grid p {
 margin-top: 0px;
 font-size: 9px;
@@ -296,10 +301,41 @@ font-size: 9px;
   margin-bottom: 20px;
  }
 div.row_grid .last-row p, div.row_grid .second-last-row p {
-margin-bottom: 0  px;
+margin-bottom: 0px;
 }
 div#content-part-two, div.carousel-container {
-    margin-top: 24px;
+    margin-top: 21px;
+}
+#row_grids2 p {
+  font-size: 14px;
+  text-decoration: underline;
+ 
+
+}
+#row_grids2 li a {
+   font-size: 11px;
+   text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ #row_grids3 a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+}
+ #row_grids3 p {
+   font-size: 10px;
+ }
+#row_grids3 i {
+  font-size: 13px;
+}
+#row_grids2 a:hover, #row_grids3 a:hover {
+ opacity: .75;
+}
+#row_grids2 ul li:not(first-child) {
+  margin-top: 3px;
 }
 }
 
@@ -528,6 +564,11 @@ h3.text {
 
 
  }
+ div.h_line {     
+
+    margin-top: -5px;
+    
+     }
  div#content-part-one h3 {
      padding-top: 1em;
    }
@@ -553,6 +594,37 @@ div.row_grid i.material-icons {
 .accordion {
           margin-top: 20px;
     margin-bottom: 20px;
+}
+#row_grids2 p {
+  font-size: 20px;
+  text-decoration: underline;
+ 
+
+}
+#row_grids2 li a {
+   font-size: 15px;
+   text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ #row_grids3 a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+ #row_grids3 p {
+   font-size: 13px;
+ }
+#row_grids3 i {
+  font-size: 18px;
+}
+#row_grids2 a:hover, #row_grids3 a:hover {
+ opacity: .75;
+}
+#row_grids2 ul li:not(first-child) {
+  margin-top: 7px;
 }
 
 }

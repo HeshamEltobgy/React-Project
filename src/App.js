@@ -8,6 +8,8 @@ import Image from './image';
 
 import Content from './content';
 
+import Footer from './footer';
+
 
 
 class App extends Component {
@@ -17,7 +19,10 @@ class App extends Component {
        <Header />
        <Menu  />
        <Image />
+       <div className="content-footer">
        <Content />
+       <Footer />
+       </div>
       </div>
     );
   }

@@ -176,7 +176,7 @@ class Header extends Component {
 
       
         <div  className="Low-header">
-        <p>Powerfull Web Solutions</p>
+        <p>Powerfull Digital Solutions</p>
         </div> 
         </header>
     );

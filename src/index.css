@@ -5,12 +5,13 @@ body {
   padding: 0;
   font-family: 'Roboto Slab', sans-serif;
   color: #fff;
+
  
 }
 
 p {
 	font-size: 12px;
 }
-div#wrapper-wrapper {
+div#wrapper-wrapper, div.content-footer {
 background-color: #333;
 }

@@ -1,0 +1,19 @@
+footer {
+	background-color: #000;
+	margin-top: 39px;
+    border-top: 1px solid #fff;
+    text-align: center;
+
+}
+
+#row_grids2 ul {
+	    margin-top: -12px;
+}
+
+#row_grids3 {
+    margin-top: 19px;
+}
+
+#row_grids2 ul li:not(first-child) {
+	margin-top: 3px;
+}

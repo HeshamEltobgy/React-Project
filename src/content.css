@@ -109,8 +109,8 @@ div.carousel-container {
 .carousel {
   position: relative;
    transition: all 3s ease-in-out;
-    background-image: url(wall.jpg);
-      
+       padding: 0.5em;
+   
     border: 1px solid #fff;
 
         width: 90%;
@@ -263,6 +263,5 @@ div.h_line {
     height: 1px;
     background: #fff;
     margin: auto;
-    margin-top: 10px;
-    
+        
      }
