@@ -6,6 +6,9 @@ import Menu from './menu';
 
 import Image from './image';
 
+import Content from './content';
+
+
 
 class App extends Component {
   render() {
@@ -14,6 +17,7 @@ class App extends Component {
        <Header />
        <Menu  />
        <Image />
+       <Content />
       </div>
     );
   }

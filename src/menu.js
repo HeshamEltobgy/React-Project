@@ -95,9 +95,9 @@ class Menu extends React.Component {
      <div className="home">
       <a href="#"><i className="fa fa-home"></i></a>
       </div>
-      <div className="link1">
-        <span className="link" onClick={this.handleClick1}>About
-        <i id="icon1" className="material-icons" onClick={changeIcon1}  style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
+      <div className="link1" onClick={this.handleClick1}>
+        <span className="link" onClick={changeIcon1} >About
+        <i id="icon1" className="material-icons"  style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
         <div className={`menu1 ${openlink1 ? 'openlink1' : ''}`}>
           <ul>
             <li><a href="#">Test 1</a></li>
@@ -106,9 +106,9 @@ class Menu extends React.Component {
           </ul>
         </div>
       </div>
-        <div className="link2">
-       <span className="link" onClick={this.handleClick2}>Services
-        <i id="icon2" className="material-icons" onClick={changeIcon2}  style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
+        <div className="link2" onClick={this.handleClick2}>
+       <span className="link" onClick={changeIcon2}>Services
+        <i id="icon2" className="material-icons"   style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
         <div className={`menu2 ${openlink2 ? 'openlink2' : ''}`}>
           <ul>
             <li><a href="#">Test 1</a></li>

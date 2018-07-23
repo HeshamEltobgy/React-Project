@@ -4,6 +4,10 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+img#picture {
+  animation: App-logo-spin infinite 8s linear;
+
+}
 
 header {
   background-color: #000;
@@ -19,12 +23,13 @@ header .Top-header {
   
 }
 
+
 header .Middle-header {
   padding: 0 10em; 
 
 }
 
-header .Middle-header a.our-business {
+header .Middle-header .our-business {
       
   font-size: 1.2em;
   float: left;
@@ -36,7 +41,7 @@ header .Middle-header a.our-business {
 }
 
 
-header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:hover{
+header .Mid-header1 .business button:hover , header .Mid-header2 .mission button:hover{
     color: #baf7bb;
   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,0.7) 30%, #000 50%, rgba(0,0,0,0.7) 70%);
   -webkit-mask-size: 200%;
@@ -51,7 +56,7 @@ header .Middle-header a.our-business:hover , header .Middle-header a.contact-us:
     -webkit-mask-position: -50%;
   }
 }
-header .Middle-header a.contact-us {
+header .Middle-header .contact-us {
   
   font-size: 1.2em;
   float: right;
@@ -103,6 +108,79 @@ header .Low-header p {
   }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+ to { transform: rotateY(360deg); }
+ 
+}
+
+
+.accessibility {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.accordion-title {
+    font-weight: normal;
+   
+}
+
+.accordion-btn {
+    all: inherit;
+    border-bottom: 0;
+}
+
+.accordion-btn:hover,
+.accordion-btn:focus {
+    cursor: pointer;
+}
+.Mid-header1 .accordion-icon {
+    border: none;
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0 2px;
+    text-align: center;
+    width: 25px;
+}
+
+
+.Mid-header2 .accordion-icon {
+    border: none;
+    display: inline-block;
+    margin-right: 4px;
+    padding: 0 2px;
+    text-align: center;
+    width: 25px;
+}
+
+.accordion-content[hidden] {
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.Mid-header1 .accordion-content, .Mid-header2 .accordion-content  {
+    animation: showhide .3s ease-in-out;
+    opacity: 1;
+    transform: scaleY(1);
+      background-color: #000;
+
+}
+
+@keyframes showhide {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
 }

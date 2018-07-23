@@ -1,0 +1,268 @@
+@import url(//ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js);
+@import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(//fonts.googleapis.com/css?family=Libre+Baskerville|Roboto+Slab);
+
+
+div#content {
+    background-color: #333;
+
+}
+.accordion {
+      text-align: -webkit-center;
+      text-align: -moz-center;
+    
+
+    
+    font-size: 0.6em;
+   
+
+}
+
+.accessibility {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.accordion-title {
+    font-weight: normal;
+    color: #fff;
+   
+}
+
+.accordion-btn {
+    all: inherit;
+    border-bottom: 0;
+}
+
+.accordion-btn:hover,
+.accordion-btn:focus {
+    cursor: pointer;
+}
+
+.accordion-icon {
+    border: 2px solid currentColor;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0 2px;
+    text-align: center;
+    width: 25px;
+}
+
+.accordion-content[hidden] {
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.accordion-content {
+    animation: showhide .3s ease-in-out;
+    opacity: 1;
+    transform: scaleY(1);
+   color: #fff;
+    width: 50%;
+}
+
+@keyframes showhide {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+        transform: scaleY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+// Resetting default styles
+.carousel__slides {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+// Fix for jumping arrows
+div.carousel-container {
+  display: flex!important;
+
+  flex-direction: column;
+  justify-content: center;
+  min-height: 210px;
+
+
+
+
+}
+.carousel-container p {
+    color: #fff;
+        width: 90%;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', sans-serif;
+}
+.carousel {
+  position: relative;
+   transition: all 3s ease-in-out;
+    background-image: url(wall.jpg);
+      
+    border: 1px solid #fff;
+
+        width: 90%;
+        margin: 0 auto;
+}
+
+// Carousel slides
+li.carousel__slide {
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 900px;
+  list-style-type: none;
+  text-align: center;
+}
+  @media (max-width: 991px) {
+   li.carousel__slide {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+li.carousel__slide {
+    display: none;
+}
+  li.carousel__slide--active {
+    display: block; 
+  }
+
+
+// Content of slides
+li.carousel-slide__content {
+  margin-bottom: 19px;
+ 
+
+  font-size: 16px;
+  
+}
+
+
+
+  @media (max-width: 992px - 1px) {
+    li.carousel-slide__content {
+    font-size: 18px;
+  }
+}
+
+.carousel-slide__author,
+.carousel-slide__source {
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 14px;
+}
+  @media (min-width: 992px) {
+    .carousel-slide__author,
+.carousel-slide__source {
+    font-size: 16px;
+  }
+}
+
+.carousel-slide__source {
+  font-style: italic;
+  color: #fff;
+}
+
+// Carousel arrows
+ a.carousel__arrow.carousel__arrow--right,  a.carousel__arrow.carousel__arrow--left {
+  position: absolute;
+  top: 50%;
+  display: block;
+  color: #000;
+  cursor: pointer;
+  opacity: .75;
+  transform: translateY(-50%);
+  transition: opacity .15s cubic-bezier(.4, 0, 1, 1);
+}
+  .carousel__arrow:focus {
+    outline: 0;
+  }
+
+  .carousel__arrow:hover {
+    opacity: .5;
+  }
+
+ a.carousel__arrow.carousel__arrow--left {
+    left: 2em;
+    position: absolute;
+   top: 0;
+   color: #fff;
+  }
+
+ a.carousel__arrow.carousel__arrow--right {
+    right: 2em;
+   position: absolute;
+   top: 0;
+   color: #fff;
+   
+  }
+
+
+// Carousel indicators
+.carousel__indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+  .carousel__indicators li:not(:last-child) {
+  
+      margin-right: 9px;
+    }
+
+.carousel__indicators li {
+      display: inline-block;
+}
+a.carousel__indicator {
+  display: inline-block;
+
+  width: 24px;
+  height: 3px;
+  background-color: #fff;
+  cursor: pointer;
+  opacity: .3;
+  
+}
+  .carousel__indicator:hover {
+    opacity: .67;
+  }
+
+   a.carousel__indicator--active, a.carousel__indicator--active a.carousel__indicator, a.carousel__indicator--active:hover {
+ 
+      opacity: .75;
+    }
+
+div.row_grid {
+    
+    width: 90%;
+  
+  
+    color: #fff;
+    margin: auto;
+}
+
+div.row_grid i.material-icons {
+    position: relative;
+    color:   #fff;
+   
+}
+
+div.h_line {     
+    width: 15%;
+    height: 1px;
+    background: #fff;
+    margin: auto;
+    margin-top: 10px;
+    
+     }
