@@ -228,7 +228,7 @@ class AccordionGeneral extends React.Component {
                     isAriaExpanded: false,
                     isHidden: true,
                     title: 'Read more',
-                    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    content: 'Digital-Tech provides offers a broad range of services for small to large business within Australia. This includes all web design/development solutions such as, App Development, Web Design, Mobile App and Web Optimization. '
                 }
             
            
@@ -304,7 +304,7 @@ class AccordionSpecific extends React.Component {
                     isAriaExpanded: false,
                     isHidden: true,
                     title: 'Read more',
-                    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    content: 'We can add value to your business through objective driven digital design solutions by offering Graphic Design techniques, UX Design tools and fully Responsive Websites. In addition, we can build E-commerce websites using the most powerful CMSs as well as working with SEO. Also, we can develop Native & Hybrid Android & iPhone Apps and provide complete testing to web and smartphone applications.'
                 }
              
            
@@ -421,7 +421,7 @@ device_hub</i></span>
   <Row>
     <Col sm={3} xs={6} className="rows row5">
      <span><i class="material-icons">developer_mode</i> <i class="material-icons">phone_android</i> <i class="material-icons">phone_iphone</i></span> 
-<p>Native & Hybrid Android & iPhoneApps</p>
+<p>Native & Hybrid Android & iPhone Apps</p>
     </Col>
     <Col sm={3} xs={6} className="rows row6">
     <span><i class="material-icons">settings_applications</i> <i class="material-icons">pageview</i> <i class="material-icons">verified_user</i></span> 

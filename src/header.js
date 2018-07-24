@@ -16,7 +16,7 @@ class DropDown extends React.Component {
                     isAriaExpanded: false,
                     isHidden: true,
                     title: 'Business',
-                    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    content: 'Digital-Tech, based in Tasmania, Australia, provides full web solutions using the most advanced digital technologies.'
                 }
            
             ]
@@ -92,7 +92,7 @@ class DropDown2 extends React.Component {
                     isAriaExpanded: false,
                     isHidden: true,
                     title: 'Mission',
-                    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                    content: 'We Strive to provide our clients with powerful web & digital solutions that meet their needs.'
                 }
            
             ]

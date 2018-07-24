@@ -474,6 +474,9 @@ margin-right: 0.8em;
 .menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
 color: #d1fad2;
 }
+.menu1.openlink1 ul li a, .menu2.openlink2 ul li a {
+  font-size: 13.5px;
+}
 div span.link i {
     top: 8px;
    
@@ -631,7 +634,7 @@ div.row_grid i.material-icons {
 
 @media screen and (min-width: 768px) and (max-width: 870px) {
  .Top-header img {
-  height: 110px;
+  height: 100px;
  } 
  .Mid-header1, .Mid-header2 {
       position: absolute;
@@ -648,19 +651,19 @@ div.row_grid i.material-icons {
 .Mid-header2 .accordion-content {
    width: 100%;
          max-height: 0;
-             margin-left: -15em;
+             margin-left: -15.4em;
     margin-top: -4em;
 }
 .Mid-header1 .accordion-content {
           margin-top: -4em;
-    margin-left: 9.7em;
+    margin-left: 10.1em;
          max-height: 0;    
 
 }
 .Mid-header1 .accordion-content p  {
   
     margin-top: -1em;
-    width: 14em;
+    width: 13em;
 
 }
  .Mid-header2 .accordion-content p {
@@ -733,6 +736,9 @@ div.row_grid i.material-icons {
 } 
 .menu1.openlink1 ul li a:hover, .menu2.openlink2 ul li a:hover, .menu3.openlink3 ul li a:hover {
 color: #d1fad2;
+}
+.menu1.openlink1 ul li a, .menu2.openlink2 ul li a {
+  font-size: 13px;
 }
 div span.link i {
     top: 8px;
@@ -811,6 +817,77 @@ h3.text {
   -webkit-transform: scale(1);
   transform: scale(1);
   
+}
+ div#content-part-one {
+    width: 90%;
+  margin: auto;
+
+
+ }
+ div.h_line {     
+
+    margin-top: -5px;
+    
+     }
+  div#content {
+        margin-top: -26px;
+  }
+ div#content-part-one h3 {
+     padding-top: 1em;
+   }
+ div#content-part-two {
+  width: 90%;
+  margin:auto;
+
+}
+div#content-part-two {
+    margin-top: -7px;
+}
+  .carousel-container {
+ margin-top: 31px;
+}
+div.row_grid i.material-icons {
+    position: relative;
+    color:   #fff;
+    font-size: 26px;
+}
+.row_grid:first-child {
+    margin-bottom: 25px;
+}
+.accordion {
+          margin-top: 20px;
+    margin-bottom: 20px;
+}
+#row_grids2 p {
+  font-size: 20px;
+  text-decoration: underline;
+ 
+
+}
+#row_grids2 li a {
+   font-size: 15px;
+   text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+ #row_grids3 a{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+ #row_grids3 p {
+   font-size: 13px;
+ }
+#row_grids3 i {
+  font-size: 18px;
+}
+#row_grids2 a:hover, #row_grids3 a:hover {
+ opacity: .75;
+}
+#row_grids2 ul li:not(first-child) {
+  margin-top: 7px;
 }
 
 

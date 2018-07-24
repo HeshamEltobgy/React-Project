@@ -100,9 +100,9 @@ class Menu extends React.Component {
         <i id="icon1" className="material-icons"  style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
         <div className={`menu1 ${openlink1 ? 'openlink1' : ''}`}>
           <ul>
-            <li><a href="#">Test 1</a></li>
-            <li><a href="#">Test 2</a></li>
-            <li><a href="#">Test 3</a></li>
+            <li><a href="#">Who are we?</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Team</a></li>
           </ul>
         </div>
       </div>
@@ -111,9 +111,9 @@ class Menu extends React.Component {
         <i id="icon2" className="material-icons"   style= {{fontSize:"30px" }}>arrow_drop_down</i></span>
         <div className={`menu2 ${openlink2 ? 'openlink2' : ''}`}>
           <ul>
-            <li><a href="#">Test 1</a></li>
-            <li><a href="#">Test 2</a></li>
-            <li><a href="#">Test 3</a></li>
+            <li><a href="#">General Services</a></li>
+            <li><a href="#">Specific Services</a></li>
+            <li><a href="#">Other Solutions</a></li>
           </ul>
         </div>
       </div>
