@@ -15,39 +15,20 @@ import './content.css';
 const carouselSlidesData = [
   {
     content:
-      `Tomorrow, you will be released.`,
-    author: "Bane",
-    source: "facebook"
+      `"Providing high quality of web services is still something missing in the market. But, with us you fill this gap."`,
+    author: "Digital-Tech -", 
+    source: " Developers"
   }, {
     content:
-      "You have learn to bury your guilt with anger. I will teach you to confront it and to face the truth.",
-    author: "Ra's Al Ghul",
-    source: "Snapchat"
+      "We can help your business through providing a robust web applications that can meet your clients.",
+    author: "Digital-Tech -",
+    source: " All Staff"
+   
   }, {
     content:
-      "Introduce a little anarchy, upset the established order and everything becomes chaos. I'm an agent of chaos. Oh, and you know the thing about chaos? It's fair.",
-    author: "Joker",
-    source: "facebook"
-  }, {
-    content:
-      "I can't do that as Bruce Wayne... as a man. I'm flesh and blood. I can be ignored, destroyed. But as a symbol, I can be incorruptible, I can be everlasting.",
-    author: "Bruce Wayne",
-    source: "facebook"
-  }, {
-    content:
-      "But it's not who you are underneath... it's what you do that defines you.",
-    author: "Rachel Dawes",
-    source: "twitter"
-  }, {
-    content:
-      "When their enemies were at the gates the Romans would suspend democracy and appoint one man to protect the city. It wasn't considered an honor, it was a public service.",
-    author: "John Blake",
-    source: "Google+"
-  }, {
-    content:
-      "Master Wayne, you've been gone a long time. You look very fashionable. Apart from the mud.",
-    author: "Alfred Pennyworth",
-    source: "twitter"
+      "Our priority is to achieve a powerful user experience, smooth implementation of web solutions and effective usage of advanced digital technologies.",
+    author: "Digital-Tech -",
+     source: " CEO"
   }
 ];
 
@@ -111,7 +92,7 @@ class CarouselSlide extends Component {
         <p>
           <strong className="carousel-slide__author">
             {this.props.slide.author}
-          </strong>,
+          </strong>
           {" "}
           <small className="carousel-slide__source">
             {this.props.slide.source}
