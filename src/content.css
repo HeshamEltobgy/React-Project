@@ -43,6 +43,7 @@ div#content {
 .accordion-btn:hover,
 .accordion-btn:focus {
     cursor: pointer;
+        color: #baf7bb;
 }
 
 .accordion-icon {
@@ -189,9 +190,9 @@ li.carousel-slide__content {
     outline: 0;
   }
 
-  .carousel__arrow:hover {
-    opacity: .5;
-  }
+ span.fa.fa-2x:hover {
+      color: #baf7bb;
+ }
 
  a.carousel__arrow.carousel__arrow--left {
     left: 2em;

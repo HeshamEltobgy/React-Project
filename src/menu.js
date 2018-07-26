@@ -35,7 +35,7 @@ class Menu extends React.Component {
     const { openlink3 } = this.state;
 
 
- function vip() {
+ function rotateIcon() {
   var x = document.getElementById("nav-nav");
  
    var y = document.getElementById("icon-down");
@@ -142,7 +142,7 @@ class Menu extends React.Component {
         
        
       </div>
-     <a href="#" id="icons" className="btn" onClick={vip} >
+     <a href="#" id="icons" className="btn" onClick={rotateIcon} >
 <i  id="icon-down" className="material-icons">arrow_drop_down</i>
 
 </a>

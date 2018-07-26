@@ -332,7 +332,7 @@ div#content-part-two, div.carousel-container {
   font-size: 13px;
 }
 #row_grids2 a:hover, #row_grids3 a:hover {
- opacity: .75;
+color: #baf7bb;
 }
 #row_grids2 ul li:not(first-child) {
   margin-top: 3px;
@@ -624,7 +624,7 @@ div.row_grid i.material-icons {
   font-size: 18px;
 }
 #row_grids2 a:hover, #row_grids3 a:hover {
- opacity: .75;
+ color: #baf7bb;
 }
 #row_grids2 ul li:not(first-child) {
   margin-top: 7px;
@@ -884,7 +884,7 @@ div.row_grid i.material-icons {
   font-size: 18px;
 }
 #row_grids2 a:hover, #row_grids3 a:hover {
- opacity: .75;
+color: #baf7bb;
 }
 #row_grids2 ul li:not(first-child) {
   margin-top: 7px;

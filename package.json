@@ -4,10 +4,12 @@
   "private": true,
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
+  "homepage": "http://HeshamEltobgy.github.io/React-Project",
   "devDependencies": {},
   "author": "Hesham Eltobgy <h.eltobgy@digital-tech.com.au>",
   "license": "CC-BY-ND-1.0",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "grunt-sass": "^2.1.0",
     "react": "^16.4.1",
     "react-accessible-accordion": "^2.4.3",
@@ -19,6 +21,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

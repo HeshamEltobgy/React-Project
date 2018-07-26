@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import lo from './lo.png';
-import li from './li.png';
+import logo_1 from './logo_1.png';
+import logo_2 from './logo_2.png';
 import './header.css';
 import './index.css';
 
@@ -166,8 +166,8 @@ class Header extends Component {
         <header>
         <div className="Top-header">
            
-          <img src={lo}  id="picture" alt="logo" style= {{position:'absolute'}}/>
-          <img src={li}  className="Li" alt="logo" />
+          <img src={logo_1}  id="picture" alt="logo" style= {{position:'absolute'}}/>
+          <img src={logo_2}  className="Li" alt="logo" />
             
         </div>
         
