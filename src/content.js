@@ -20,7 +20,7 @@ const carouselSlidesData = [
     source: " Developers"
   }, {
     content:
-      "We can help your business through providing a robust web applications that can meet your clients.",
+      "We can help your business through providing a robust web applications that can meet your client needs.",
     author: "Digital-Tech -",
     source: " All Staff"
    
