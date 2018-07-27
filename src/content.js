@@ -209,7 +209,7 @@ class AccordionGeneral extends React.Component {
                     isAriaExpanded: false,
                     isHidden: true,
                     title: 'Read more',
-                    content: 'Digital-Tech provides offers a broad range of services for small to large business within Australia. This includes all web design/development solutions such as, App Development, Web Design, Mobile App and Web Optimization. '
+                    content: 'Digital-Tech offers a broad range of services for small to large business within Australia. This includes all web design/development solutions such as, App Development, Web Design, Mobile App and Web Optimization. '
                 }
             
            
