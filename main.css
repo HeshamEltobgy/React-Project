@@ -307,13 +307,13 @@ div#content-part-two, div.carousel-container {
     margin-top: 21px;
 }
 #row_grids2 p {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: underline;
  
 
 }
 #row_grids2 li a {
-   font-size: 11px;
+   font-size: 10px;
    text-decoration: none;
     color: #fff;
     cursor: pointer;
@@ -329,7 +329,7 @@ div#content-part-two, div.carousel-container {
    font-size: 10px;
  }
 #row_grids3 i {
-  font-size: 13px;
+  font-size: 12px;
 }
 #row_grids2 a:hover, #row_grids3 a:hover {
 color: #baf7bb;
