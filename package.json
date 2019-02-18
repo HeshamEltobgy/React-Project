@@ -18,7 +18,7 @@
     "react-grid-system": "^4.1.4",
     "react-responsive-accordion": "^1.0.0",
     "react-responsive-carousel": "^3.1.41",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^2.1.5"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -27,5 +27,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
